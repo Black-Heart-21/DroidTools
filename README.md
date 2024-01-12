@@ -1,18 +1,30 @@
-# DroidTools
-This app is made to makes users life easy by using the tools int it. Tools :- 
-1. PDF to Text, (for converting a pdf file in text file to edit it.)
-2. Text to PDF, (Converts a text file into a PDF file)
-3. Add file on DB,(Store your file on database)
-4. Show Uploaded file from db, (Access the file that are uploaded from anywhere)
-5. Image To Text,(Extract text from image)
-6. Quick Notes. (user can access notes and files from any android device by login his his account on this app.)
+# Folder overview
+Here in frist folder all the codes are uploaded
+In second folder the ppt and the presentetion off our application is uploaded
+In third folder anyone can directly use our application by downloading the .apk file.
 
+# About coding
+Frontend : All the frontend code are written with xml language.
+Backend : The backend code we are made with the helping of java language.
+Database : In database we are using firebase.
 
-Advantages:-
-1. Multiple tools in a single app
-2. Reduce the use of external storage devices. user can upload important file from anywhere just to login our app.
-3. We keeps files private. only the account owner can access the files that are uploaded to server. 
+# About documentation
+All the user manual and advantages and disadvantages are in the Documentation folder.
 
+#About apk file
+We are put the final apk in this folder if any one wish to use our app they can directly download the DroidTools.apk directly from it.
 
-Disadvantages:-
-1. Files are auto deleted after some time.
+# About Machine
+if you want to clone this you need chrome and android studio.
+if you want to download the apk file you just need android phone with > android 8.
+
+# Notice
+It will not work on any iPhone the application is only for android.
+
+#For more details
+whatsapp on 9832961542
+insta handel im_black_heart21
+fb handel 
+1. https://www.facebook.com/Niladittya21?mibextid=JRoKGi
+                           or
+2. https://www.facebook.com/profile.php?id=100095356681370&mibextid=JRoKGi
