@@ -21,7 +21,7 @@ if you want to download the apk file you just need android phone with > android 
 # Notice
 It will not work on any iPhone the application is only for android.
 
-#For more details
+# For more details
 1. whatsapp on 9832961542
 2. insta handel im_black_heart21
 3. fb handel 
