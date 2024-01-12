@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextToPDFTools.TextToPdf"
+    >
+
+
+    <EditText
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="@string/enter_file_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="@color/BtnTransparent"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/editextstyle"
+        android:paddingLeft="15dp"
+        android:textSize="20sp"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/note_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/note_title"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginRight="15dp"
+        android:gravity="top|start"
+        android:hint="@string/enter_content"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        android:lines="100000"
+        android:scrollbars="vertical"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+
+        android:paddingTop="10dp"
+        android:background="@drawable/editextstyle"
+        android:paddingLeft="15dp"
+        android:textSize="17sp"
+        android:layout_marginBottom="10dp"
+        tools:ignore="VisualLintTextFieldSize" />
+</RelativeLayout>

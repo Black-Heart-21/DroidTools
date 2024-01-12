@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "378917789732",
+    "firebase_url": "https://droidtools-73721-default-rtdb.firebaseio.com",
+    "project_id": "droidtools-73721",
+    "storage_bucket": "droidtools-73721.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378917789732:android:85d4eff390d0b8b811b8b1",
+        "android_client_info": {
+          "package_name": "com.example.droidtools"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378917789732-mo2c59mdif7f3q5mfgco3v8ngrotniuv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.droidtools",
+            "certificate_hash": "66d8493acd965b841dd192b3b0da9b834ecc009b"
+          }
+        },
+        {
+          "client_id": "378917789732-edrkpdomcf3rb0qb144bok17o0dp7e7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZtoTsD8nWtGqF5FLjZD3olxgdaZvG9Cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378917789732-edrkpdomcf3rb0qb144bok17o0dp7e7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

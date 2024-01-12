@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:id="@+id/loading"
+        android:visibility="visible"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/note_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/editextstyle"
+            android:paddingLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title"
+            android:textColorHint="@color/black"
+            android:textColor="@color/BtnTransparent"
+            android:inputType="text"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            android:importantForAutofill="no"
+            android:textSize="20sp"
+            tools:ignore="VisualLintTextFieldSize"
+            />
+
+        <EditText
+            android:id="@+id/note_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/editextstyle"
+            android:paddingLeft="15dp"
+            android:gravity="top|start"
+            android:hint="@string/desc"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:lines="100000"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="17sp"
+            tools:ignore="VisualLintTextFieldSize" />
+    </LinearLayout>
+
+</RelativeLayout>

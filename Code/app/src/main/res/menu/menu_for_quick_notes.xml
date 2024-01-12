@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item app:showAsAction="ifRoom"
+        android:icon="@drawable/menu_icon"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/save"
+                app:showAsAction="never"
+                android:icon="@drawable/save_btn"
+                android:title="@string/save_file" />
+            <item
+                android:id="@+id/share"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_share_24"
+                android:title="@string/share_file" />
+            <item
+                android:id="@+id/rate"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_star_rate_24"
+                android:title="@string/rate_us" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

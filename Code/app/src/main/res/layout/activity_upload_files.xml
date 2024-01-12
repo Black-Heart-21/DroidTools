@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".FileUploadOnServer.UploadFiles">
+    <EditText
+        android:id="@+id/filename"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/custom_edittext"
+        android:drawableStart="@drawable/storage"
+        android:drawablePadding="8dp"
+        android:hint="@string/device_select"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="@color/darkblue"
+        android:textSize="20sp"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:textColorHint="#5C6BC0"
+        tools:ignore="VisualLintTextFieldSize,TextContrastCheck" />
+
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/upload"
+        android:textColor="@color/darkblue"
+        android:textSize="25sp"
+        app:cornerRadius="20dp"
+        tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck,TextContrastCheck" />
+</LinearLayout>
