@@ -22,9 +22,9 @@ if you want to download the apk file you just need android phone with > android 
 It will not work on any iPhone the application is only for android.
 
 #For more details
-whatsapp on 9832961542
-insta handel im_black_heart21
-fb handel 
-1. https://www.facebook.com/Niladittya21?mibextid=JRoKGi
+1. whatsapp on 9832961542
+2. insta handel im_black_heart21
+3. fb handel 
+   i. https://www.facebook.com/Niladittya21?mibextid=JRoKGi
                            or
-2. https://www.facebook.com/profile.php?id=100095356681370&mibextid=JRoKGi
+   ii. https://www.facebook.com/profile.php?id=100095356681370&mibextid=JRoKGi
